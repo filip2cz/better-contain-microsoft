@@ -10,11 +10,16 @@
         "96": "icon@2x.png"
     },
 
-    "applications": {
-      "gecko": {
-        "id": "@better-contain-microsoft",
-        "strict_min_version": "57.0"
-      }
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "@better-contain-microsoft",
+            "strict_min_version": "57.0",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        }
     },
 
     "homepage_url": "https://git.envs.net/fkomarek/better-contain-microsoft",
